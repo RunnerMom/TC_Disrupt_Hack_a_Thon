@@ -59,7 +59,7 @@ def which_products(person, avgTemp):
 			tops = requests.get(url, params=sweater_args)
 
 			wool_args = {
-			'fts': "woll pants",
+			'fts': "wool pants",
 			'cat': "womens-pants"
 			}
 
@@ -128,7 +128,7 @@ def which_products(person, avgTemp):
 			tops = requests.get(url, params=sweater_args)
 
 			wool_args = {
-			'fts': "woll pants",
+			'fts': "wool pants",
 			'cat': "mens-pants"
 			}
 
@@ -195,7 +195,7 @@ def which_products(person, avgTemp):
 			tops = requests.get(url, params=sweater_args)
 
 			wool_args = {
-			'fts': "woll pants",
+			'fts': "wool pants",
 			'cat': "girls-jeans"
 			}
 

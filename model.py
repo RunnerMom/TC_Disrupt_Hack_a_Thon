@@ -1,6 +1,9 @@
 from urllib2 import urlopen
 import json 
-
+'''
+This model calls the Weather underground API through an Http request,
+retrieves the 10-day forecast, and calculates the average hi and average lo for the next 10 tenDayList
+'''
 def current(city, state):
 	f = urlopen('http://api.wunderground.com/api/fbec2cc984499b31/geolookup/conditions/q/%s/%s.json' % (state, city)) 
 	json_string = f.read() 
